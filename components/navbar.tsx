@@ -21,7 +21,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary hover:opacity-80 transition">
             <Heart className="w-6 h-6" fill="currentColor" />
-            <span>Beacon</span>
+            <span>Beacon Light Initiative</span>
           </Link>
 
           {/* Desktop Menu */}

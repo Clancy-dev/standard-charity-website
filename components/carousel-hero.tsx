@@ -6,27 +6,27 @@ import { Button } from '@/components/ui/button'
 
 const slides = [
   {
-    image: '/carousel-1.jpg',
+    image: '/hero-1.jpg',
     title: 'Education & Mentorship',
     subtitle: 'Empowering young minds through quality education',
   },
   {
-    image: '/carousel-2.jpg',
+    image: '/hero-2.jpg',
     title: 'Healthcare Access',
     subtitle: 'Bringing medical care to underserved communities',
   },
   {
-    image: '/carousel-3.jpg',
+    image: '/hero-3.jpg',
     title: 'Environmental Action',
     subtitle: 'Building a sustainable future together',
   },
   {
-    image: '/carousel-4.jpg',
+    image: '/hero-4.jpg',
     title: 'Emergency Relief',
     subtitle: 'Supporting families in their time of need',
   },
   {
-    image: '/carousel-5.jpg',
+    image: '/hero-5.jpg',
     title: 'Community Development',
     subtitle: 'Creating lasting opportunities for all',
   },
