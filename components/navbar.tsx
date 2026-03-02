@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary hover:opacity-80 transition">
-            <Image src={"/logo.png"} alt='Beacon Light Initiative Logo' className="w-10 h-10" width={500} height={500}/> 
+            <Image src="/logo.png" alt="Beacon Light Initiative Logo" className="w-10 h-10" width={500} height={500}/> 
             <span>Beacon Light Initiative</span>
           </Link>
 
