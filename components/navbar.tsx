@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Heart, LogIn } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary hover:opacity-80 transition">
-            <Heart className="w-6 h-6" fill="currentColor" />
+            <Image src={"/logo.png"} alt='Beacon Light Initiative Logo' className="w-10 h-10" width={500} height={500}/> 
             <span>Beacon Light Initiative</span>
           </Link>
 
