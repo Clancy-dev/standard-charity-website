@@ -50,18 +50,19 @@ export default function Footer() {
               <li className="flex items-center gap-2 opacity-90">
                 <Mail className="w-4 h-4 flex-shrink-0" />
                 <a href="mailto:hello@hopefoundation.org" className="hover:opacity-100 transition">
-                  hello@hopefoundation.org
+                  {/* hello@hopefoundation.org */}
+                  beaconlightinitiative@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2 opacity-90">
                 <Phone className="w-4 h-4 flex-shrink-0" />
                 <a href="tel:+1-555-0123" className="hover:opacity-100 transition">
-                  (555) 0123
+                  07823467894
                 </a>
               </li>
               <li className="flex items-start gap-2 opacity-90">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span>123 Hope Street<br />New York, NY 10001</span>
+                <span>P.O Box 13456<br />Kampala, Uganda</span>
               </li>
             </ul>
           </div>
@@ -89,7 +90,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-white/20 pt-8">
           <p className="text-center text-sm opacity-90">
-            &copy; {currentYear} Hope Foundation. All rights reserved. | Made with <Heart className="inline w-4 h-4" fill="currentColor" /> by people who care
+            &copy; {currentYear} Beacon Light Initiative. All rights reserved. | Made with <Heart className="inline w-4 h-4" fill="currentColor" /> by people who care
           </p>
         </div>
       </div>

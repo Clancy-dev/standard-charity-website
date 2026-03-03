@@ -22,12 +22,12 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary hover:opacity-80 transition">
            <Image
-              src="/beacon-light-initiative.png"
+              src="/beacon-light-initiative.jpg"
               alt="Beacon Light Initiative Logo"
               className="w-10 h-10"
-              width={500}
+              width={500}  
               height={500}
-            />
+            /> 
             <span>Beacon Light Initiative</span>
           </Link>
 
